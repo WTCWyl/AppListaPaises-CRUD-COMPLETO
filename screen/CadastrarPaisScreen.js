@@ -15,9 +15,9 @@ const CadastrarPaisScreen = () => {
         nome: nomePais,
         capital: capital
       });
-      console.log('Pais criado:', response.data);
+      console.log('Pais criado!:', response.data);
     } catch (error) {
-      console.error('Erro ao criar país:', error);
+      console.error('Erro ao criar país: o erro é:', error);
     }
   };
 
