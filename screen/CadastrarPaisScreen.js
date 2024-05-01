@@ -16,7 +16,6 @@ const CadastrarPaisScreen = () => {
         capital: capital
       });
       console.log('Pais criado:', response.data);
-      // Após criar o país com sucesso, você pode fazer algo, como navegar de volta para a tela inicial
     } catch (error) {
       console.error('Erro ao criar país:', error);
     }
